@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - printing the english alphabets
- *
- * Description: using the putchar to print english alphabets
+ * main - printing english alphabets
+ * 
+ * Description: Using the putchar function to print the english alphabets
  * Return: 0
  */
 int main(void)
@@ -14,6 +14,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
+
 	putchar("\n");
 	return (0);
 }
