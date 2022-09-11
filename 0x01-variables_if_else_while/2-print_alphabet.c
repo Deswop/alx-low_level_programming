@@ -7,14 +7,14 @@
  * Description: Using the putchar function to print the english alphabets
  * Return: 0
  */
-int main(void)
+int main()
 {
 	char ch;
-	for (ch = 'a' ; ch <= 'z' ; char)
+	for (ch = 'a' ; ch <= 'z' ;char)
 	{
 		putchar(ch);
 	}
 
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
