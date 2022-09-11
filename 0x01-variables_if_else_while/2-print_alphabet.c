@@ -1,19 +1,18 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * main - printing alphabets in lowercase
+ * main - printing the english alphabets
  *
- * Description: write a program that prints all alphabets
- * in lower case
+ * Description: using the putchar to print english alphabets
  * Return: 0
  */
 int main(void)
 {
-	char c;
-	for (c ="a" ; c <= "z" ; ch++)
+	char ch;
+	for (ch = 'a' ; ch <= 'z' ; char)
 	{
-		putchar(c);
+		putchar(ch);
 	}
 	putchar("\n");
 	return (0);
