@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - printing hexadecimals 
+ * main - printing hexadecimals
  *
  * Description: printing hexadecimals in lower case the a line
  * Return: 0
@@ -12,7 +12,7 @@ int main(void)
 	int num;
 	char ch;
 
-	for (num = 0; num <10; num++)
+	for (num = 0; num < 10; num++)
 	{
 		putchar((num % 10) + '0');
 	}
