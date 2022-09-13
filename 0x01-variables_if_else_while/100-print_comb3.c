@@ -18,18 +18,15 @@ int main(void)
 		for (num2 = num + 1; num2 < 10; num2++)
 		{
 			putchar((num % 10) + '0');
-				putchar((num2 % 10) + '0');		
+			putchar((num2 % 10) + '0');
 
-				if (num == 8 && num2 == 9)
-		{
-			continue;
-		}
+			if (num == 8 && num2 == 9)
+				continue;
 
 		putchar(',');
 		putchar(' ');
 		}
 	}
 		putchar('\n');
-
-	return (0);
+		return (0);
 }
