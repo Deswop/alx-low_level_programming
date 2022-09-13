@@ -20,16 +20,16 @@ int main(void)
 			putchar((num % 10) + '0');
 				putchar((num2 % 10) + '0');
 		
-
 		if (num == 9 && num2 == 9)
+		{
 			continue;
+		}
 
 		putchar(',');
 		putchar(' ');
 		}
 	}
-	
-	putchar('\n');
+		putchar('\n');
 
 	return (0);
 }
