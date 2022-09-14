@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - printing a c then a newline
- *
- * Return: 0
+ * main - print putchar
+ * Return: always 0
  */
 int main(void)
 {
@@ -19,5 +18,3 @@ int main(void)
 
 	return (0);
 }
-
-
