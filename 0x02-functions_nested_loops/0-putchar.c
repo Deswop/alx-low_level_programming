@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
- * main - printing followed by a new line
+ * main - printing a c then a newline
  *
- * Description: Writing a program that prints _putchar followed by a new line
  * Return: 0
  */
 int main(void)
 {
-	char newline;
-
-	while (newline)
-	{
-		_putchar(newline);
-		newline++;
-	}
-	_putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n);
 
 	return (0);
 }
+
+
