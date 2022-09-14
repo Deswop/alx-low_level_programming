@@ -3,6 +3,7 @@
 /**
  * main - printing alphabets
  *
+ * Description: a function that checks for lower case using int _islower(int c)
  * Return: Always 0
  */
 void print_alphabet(void)
