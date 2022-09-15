@@ -21,6 +21,8 @@ void times_table(void)
 			if (pro <= 9)
 			{
 				_putchar(' ');
+			}
 		}
+		_putchar('\n');
 	}
 }
