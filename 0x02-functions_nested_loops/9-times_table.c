@@ -22,6 +22,9 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
+			else
+			{
+				_putchar((pro / 10) + '0');
 		}
 		_putchar('\n');
 	}
