@@ -7,15 +7,20 @@
  */
 void times_table(void)
 {
-	int num, mul;
+	int num, mul, pro;
 
 	for (num = 0; num <= 9; num++)
 	{
 		_putchar('0');
-		
 		for (mul = 1; mul <= 9; mul++)
 		{
-			_putchar(mul);
+			_putchar(',');
+			_putchar(' ');
+
+			pro = num * mul;
+			if (pro <= 9)
+			{
+				_putchar(' ');
 		}
 	}
 }
