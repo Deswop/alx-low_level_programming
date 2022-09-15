@@ -2,8 +2,8 @@
 
 /**
  * add - add to int
- * @int a: is the first int
- * @int b: is the second int
+ * @a: is the first int
+ * @b: is the second int
  *
  * Return: 0
  */
