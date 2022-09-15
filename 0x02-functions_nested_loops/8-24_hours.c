@@ -17,18 +17,18 @@ void jack_bauer(void)
 	{
 		while (min <= 59)
 		{
-av
-	hrem = hours % 10;
-        _putchar(hours / 10 + '0');
-	_putchar(hrem + '0');
-	_putchar(':');
-	_putchar(min / 10 + '0');
-	_putchar(minrem + '0');
-	min++;
-	_putchar('\n');
+			minrem = min % 10;
+			hrem = hours % 10;
+			_putchar(hours / 10 + '0');
+			_putchar(hrem + '0');
+			_putchar(':');
+			_putchar(min / 10 + '0');
+			_putchar(minrem + '0');
+			min++;
+			_putchar('\n');
 		}
-	hours++;
-	min = 0;
+		hours++;
+		min = 0;
 	}
 }
 		
