@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat: C function that copies a string
+ * _strncat - C function that concatenates a string
  * @dest: buffer storing the string copy
  * @src: the source string
  * @n: integer paarmeter to compare index to
