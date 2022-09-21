@@ -1,4 +1,4 @@
-#include " main.h"
+#include "main.h"
 
 /**
  * _strncat: C function that copies a string
