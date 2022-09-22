@@ -3,7 +3,6 @@
 /**
  * string_toupper - changes all lower case letter to uppercase
  * @str: string to be changed
- *
  * Return: address to the string
  */
 
