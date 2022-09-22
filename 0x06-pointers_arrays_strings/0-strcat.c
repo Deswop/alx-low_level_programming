@@ -1,12 +1,11 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _strcat - a function that concatenates two srings
- * @dest: destination
- * @src: source
- * @n: integer parameter to compare index to
- * Return: returns new concatenaeted string
+ * _strcat - a function that concatenates two strings
+ * @dest: string that will be appended
+ * @src: string to be concatenated upon
+ *
+ * Return: returns pointer to @dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -15,10 +14,9 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[index++])
 		dest_len++;
-
+	
 	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
 
 	return (dest);
 }
-
