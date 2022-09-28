@@ -3,6 +3,7 @@
 /**
  * is_prime_number - returns 1 if n is prime
  * @n: number to be checked
+ * @start: gfjkfdhfg
  *
  * Return: 1 if n is prime and 0 otherwise
  */
