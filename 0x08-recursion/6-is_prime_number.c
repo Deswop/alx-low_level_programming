@@ -9,7 +9,6 @@
 
 int is_prime_number(int n)
 {
-	int is_prime;
 	int start = n / 2;
 
 	if (n <= 1)
